@@ -1,7 +1,6 @@
 export const dev = window.location.origin.includes('localhost')
 export const baseURL = dev ? 'https://localhost:7045' : ''
 export const useSockets = false
-// TODO use your own auth stuff
-export const domain = 'dev-h63x8ohlbl1q2qkp.us.auth0.com'
-export const clientId = 'XX15k7a9Be1KE1Usl1aaOrDdzKJwvtUp'
-export const audience = 'https://jeremyisaraddude.com'
+export const domain = 'dev-yanh5or5lk0h4yvz.us.auth0.com'
+export const clientId = 'T8vuCvLjhGdBjmjFiAMpBPXtsYROhSqK'
+export const audience = 'https://gregoryslist.com'
